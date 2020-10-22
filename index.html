@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06_WeatherApp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                <img
+                    src="./Assests/Lightning.png"
+                    height="100px"
+                    width="50px"
+                />
+                </a>
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                    <a class="navbar-item">
+                        WeatherApp
+                    </a>
+            </div>
+        </nav>
+            <div class="columns mt-2">
+                <div class="column is-4">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Search For A City: 
+                            </p>
+                        </header>
+                        <div class="card-content">
+                                <input id = "city-Search" class="input pb-2" type="text" placeholder="Search">
+                        </div>
+                        <div class="card-content is-pulled-left">
+                            <button id="Search-Btn" class="button is-dark is-rounded mb-5" type="submit">Search</button>
+
+                            <div class="columns mt-5">
+                                <div class="column is-2">
+                                    <ul id="Search-History"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-6">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Today's Forecast: 
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="columns is-vcentered">
+                                <div id="city-Name" class="column is-1 has-text-centered"></div>
+                                <div id="icon" class="column is-1"></div>
+                            </div>
+                            <div class="columns">
+                                <ul id="weather-Data">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
