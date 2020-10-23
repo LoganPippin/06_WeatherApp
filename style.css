@@ -1,0 +1,49 @@
+.Low {
+  background-color: green;
+  color: black;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.Moderate {
+  background-color: yellow;
+  color: black;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.High {
+  background-color: orange;
+  color: black;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.VeryHigh {
+  background-color: red;
+  color: black;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.Extreme {
+  background-color: purple;
+  color: black;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1em;
+}
+li button {
+  float: right;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  background-color: #ff9500;
+  color: white;
+  font-size: 1em;
+}
